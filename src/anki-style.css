@@ -1,0 +1,180 @@
+.anki-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.headline {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #2e3a59;
+}
+
+.auth-container {
+  text-align: center;
+}
+
+.auth-container input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  width: 250px;
+}
+
+.auth-container button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #007acc;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #005b99;
+}
+
+.id-created {
+  color: green;
+  font-weight: bold;
+}
+
+.error-msg {
+  color: red;
+  font-weight: bold;
+}
+
+.counter {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.reset-button,
+.review-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.review-button {
+  background-color: #4caf50;
+}
+
+.reset-button:hover {
+  background-color: #d32f2f;
+}
+
+.review-button:hover {
+  background-color: #388e3c;
+}
+
+.card {
+  border-radius: 10px;
+  background: #fff8dc;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  border: 2px solid #f4e04d;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.front-card {
+  font-weight: bold;
+  color: #333;
+}
+
+.back-card {
+  margin-top: 1rem;
+  background-color: #d0f0c0;
+  padding: 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.show-answer {
+  margin-top: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.show-answer:hover {
+  background-color: #388e3c;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.btn-green {
+  background-color: #a5d6a7;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-yellow {
+  background-color: #ffe082;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-orange {
+  background-color: #ffb74d;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: #ef9a9a;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.review-summary {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e8f5e9;
+  border: 1px solid #4caf50;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
